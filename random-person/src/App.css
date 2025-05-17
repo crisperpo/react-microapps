@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+}
+.user-profile {
+  display: flex;
+  min-width: 200px;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}

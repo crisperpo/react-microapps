@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Gabrielle",
+                "last": "Chu"
+            },
+            "location": {
+                "street": {
+                    "number": 9994,
+                    "name": "Stanley Way"
+                },
+                "city": "Burlington",
+                "state": "Prince Edward Island",
+                "country": "Canada",
+                "postcode": "G4X 8S4",
+                "coordinates": {
+                    "latitude": "-65.5529",
+                    "longitude": "110.5247"
+                },
+                "timezone": {
+                    "offset": "+9:00",
+                    "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+                }
+            },
+            "email": "gabrielle.chu@example.com",
+            "login": {
+                "uuid": "734dfe1b-61be-4d64-9052-df407346f946",
+                "username": "blackswan975",
+                "password": "florida",
+                "salt": "fT31Ar2d",
+                "md5": "5ec3011ea3860545c08b168342ce013e",
+                "sha1": "2dcfde3fca281102bfe1e09b5bd1e3a907d06bc8",
+                "sha256": "efd24fbd5d511e1a6950046da51bb5de036abf2d0cb234503026f68222570aad"
+            },
+            "dob": {
+                "date": "1960-04-18T22:38:14.592Z",
+                "age": 65
+            },
+            "registered": {
+                "date": "2003-04-21T10:47:40.219Z",
+                "age": 22
+            },
+            "phone": "F23 Y52-4562",
+            "cell": "L28 E20-2455",
+            "id": {
+                "name": "SIN",
+                "value": "728378779"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/48.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/48.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/48.jpg"
+            },
+            "nat": "CA"
+        }
+    ],
+    "info": {
+        "seed": "5777d19973050f74",
+        "results": 1,
+        "page": 1,
+        "version": "1.4"
+    }
+}
