@@ -37,15 +37,15 @@ const useUsers = () => {
     if (sort === SortBy.NONE) return filteredUsers;
     switch (sort) {
       case SortBy.COUNTRY:
-        return [...filteredUsers].sort((a: User, b: User) => {
+        return filteredUsers.toSorted((a: User, b: User) => {
           return a.location.country.toLowerCase().localeCompare(b.location.country.toLowerCase())
         })
       case SortBy.NAME:
-        return [...filteredUsers].sort((a: User, b: User) => {
+        return filteredUsers.toSorted((a: User, b: User) => {
           return a.name.first.toLowerCase().localeCompare(b.name.first.toLowerCase())
         })
       case SortBy.LAST:
-        return [...filteredUsers].sort((a: User, b: User) => {
+        return filteredUsers.toSorted((a: User, b: User) => {
           return a.name.last.toLowerCase().localeCompare(b.name.last.toLowerCase())
         })
       default:
