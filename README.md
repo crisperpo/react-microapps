@@ -1,7 +1,5 @@
 # React Micro-Applications Monorepo
 
-# React Micro-Applications Monorepo
-
 This repository contains a collection of React challenges and micro-applications built for learning and demonstration purposes.
 
 ## Tech Stack
